@@ -5,6 +5,8 @@ package slidingWindow;
  * output : 9 -> (5+1+3)
  */
 
+import jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput;
+
 public class MaxSumNative {
 	
 	public static int maxSumSubarray(int arr[], int k) {
@@ -30,6 +32,7 @@ public class MaxSumNative {
 		int arr[] =  {2,1,5,1,3,2};
 		int k =3;
 		System.out.println(maxSumSubarray(arr, k));
+		System.out.print(false);
 	}
 	
 	
