@@ -10,6 +10,7 @@ public class BasicsOfArray {
 		char words[]= {'a','b','c','d','e','f'};
 		
 		int arr[] = {3,4,5,6};
+		System.out.println("test");
 		
 		for(int numbers : value) {
 			
