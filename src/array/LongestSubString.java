@@ -8,6 +8,7 @@ public class LongestSubString {
 		String str = "abcdbbca";
 		int result = longestSubString(str);
 		System.out.println(result);
+		System.out.print("anc");
 		
 
 	}
