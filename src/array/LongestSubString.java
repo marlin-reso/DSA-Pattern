@@ -9,6 +9,7 @@ public class LongestSubString {
 		int result = longestSubString(str);
 		System.out.println(result);
 		System.out.print("anc");
+		System.out.print(false);
 		
 
 	}
