@@ -20,9 +20,7 @@ This project is designed to help beginners and professionals strengthen their Ja
 * Stacks
 * Queues
 * HashMap / HashSet
-* Trees
-* Heaps
-* Graphs
+
 
 ### ✔️ Algorithms
 
