@@ -14,12 +14,12 @@ This project is designed to help beginners and professionals strengthen their Ja
 
 ### ✔️ Core Data Structures
 
-* Arrays
-* Strings
-* Linked Lists
-* Stacks
-* Queues
-* HashMap / HashSet
+* Arrays.
+* Strings.
+* Linked Lists.
+* Stacks.
+* Queues.
+* HashMap / HashSet.
 
 
 ### ✔️ Algorithms
