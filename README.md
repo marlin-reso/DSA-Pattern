@@ -24,8 +24,8 @@ This project is designed to help beginners and professionals strengthen their Ja
 
 ### ✔️ Algorithms
 
-* Sorting Algorithms (Bubble, Insertion, Merge, Quick, etc.)
-* Searching Algorithms (Linear, Binary Search)
+* Sorting Algorithms (Bubble, Insertion, Merge, Quick, etc.).
+* Searching Algorithms (Linear, Binary Search).
 * Recursion & Backtracking
 * Sliding Window & Two-Pointer Techniques
 * Dynamic Programming (Easy → Hard)
