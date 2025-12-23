@@ -22,5 +22,24 @@ public class CountString {
 
 	}
 	
+	
+	public static void coun() {
+		
+		String str = "abbcdeed";
+		
+		Map<Character, Integer> set = new HashMap<>();
+		
+		for(char c: str.toCharArray()) {
+			set.put(c, set.getOrDefault(c, 0)+1);
+		}
+		
+		for(Map.Entry<Character,Integer> entry : set.entrySet()) {
+			
+			System.out.println(entry.getKey()+ " " + entry.getValue());
+		}
+		
+		
+	}
+	
 
 }
