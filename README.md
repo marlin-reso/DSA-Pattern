@@ -26,10 +26,10 @@ This project is designed to help beginners and professionals strengthen their Ja
 
 * Sorting Algorithms (Bubble, Insertion, Merge, Quick, etc.).
 * Searching Algorithms (Linear, Binary Search).
-* Recursion & Backtracking
-* Sliding Window & Two-Pointer Techniques
-* Dynamic Programming (Easy → Hard)
-* Greedy Algorithms
+* Recursion & Backtracking.
+* Sliding Window & Two-Pointer Techniques.
+* Dynamic Programming (Easy → Hard).
+* Greedy Algorithms.
 
 ---
 
