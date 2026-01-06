@@ -23,6 +23,7 @@ public class ClassNotes {
 	}
 	
 	public void studentList() {
+		ClassNotes cn = new ClassNotes();
 		List <String>list = new LinkedList<>();
 		list.add("Rahul");
 		list.add("Mohan");
@@ -31,23 +32,25 @@ public class ClassNotes {
 		list.add("Nitin");
 		list.add("Asish");
 		list.add("Rani");
-		
-		Map<String, Integer> map = new LinkedHashMap<>();
-		
 		Collections.sort(list);
 		
-		ClassNotes cn = new ClassNotes();
-		
-		for(String str : list) {
-			
-		}
+		Map<String, Integer> map = new LinkedHashMap<>();
+	
 		
 		
-		
-		
-		
-		System.out.println(list);
 	}
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
 	
 	
 	

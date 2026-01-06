@@ -6,6 +6,7 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.Set;
 
 public class Easy {
@@ -38,12 +39,75 @@ public class Easy {
 	//	removeDuplicateFromArray(arr);
 	//	moveZeroRight(arr);
 		
-		moveZeroLeft(arr);
+	//	moveZeroLeft(arr);
 		
+	//	checkEvenOrOddOnlyIfGraterThenHundred();
 		
+		profitAndLoss();
 		
 		
 	}
+	
+	public static void profitAndLoss() {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the Cost price : ");
+		int costPrice = sc.nextInt();
+		
+		System.out.print("Enter the Selling price : ");
+		int sellingPrice = sc.nextInt();
+		
+		if(sellingPrice > costPrice) {
+			
+			int profit = sellingPrice - costPrice;
+			int profitPercentage = (profit*100)/costPrice;
+			System.out.println("Profit of "+profitPercentage+"%");
+		}else if(sellingPrice < costPrice) {
+			int loss = costPrice - sellingPrice;
+			int lossPercentage = (loss*100)/costPrice;
+			System.out.println("Loss of "+lossPercentage+"%");
+			
+		}else if(sellingPrice == costPrice) {
+			System.out.println("No profit and no loss");
+		}else {
+			System.out.println("hello");
+		}
+		
+	}
+	
+	
+	
+	public static void checkEvenOrOddOnlyIfGraterThenHundred() {
+		int value = 1;
+		do {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter the number which is grater then 100 : ");
+		int num = sc.nextInt();
+		
+		
+		
+		
+		if(num>100) {
+			
+			if(num%2 == 0) {
+				System.out.println(num + " is even");
+			}else {
+				System.out.println(num + " is odd");
+			}
+		}else {
+			System.out.println(num + " is less then 100");
+		}
+		
+		System.out.println("For check again press 0");
+		 value = sc.nextInt();
+		
+		}while(value ==0);
+		
+	}
+	
+	
+	
 	
 	public static void moveZeroLeft(int arr[]) {
 		int j = arr.length-1;
