@@ -16,15 +16,10 @@ public class LoopControl {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the number : ");
 		int num = sc.nextInt();
+		int value =1;
 		
-		while(num > 0) {
-			if(num%(num-1) ==0) {
-				System.out.println(num);
-			}
-			
-			
-			num--;
-		}
+		
+		
 		
 	}
 	
