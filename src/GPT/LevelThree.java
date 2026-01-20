@@ -32,7 +32,15 @@ public class LevelThree {
 
 
 	}
-	
+	//Check if array elements are unique
+	public int findUniqueInArray(int arr[]) {
+		Map<Character, Integer> map = new HashMap<>();
+		for(int a : arr) {
+			
+		}
+		
+		return 0;
+	}
 	//Two some problem Return the two numbers 
 	public int[] returnTwoNumbers(int arr[], int target) {
 		Set<Integer> set = new HashSet<>();
