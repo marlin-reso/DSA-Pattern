@@ -3,10 +3,10 @@ package GPT;
 import java.util.Arrays;
 
 
-public class LevelOne {
+public class ArrayBased {
 
 	public static void main(String[] args) {
-		LevelOne one = new LevelOne();
+		ArrayBased one = new ArrayBased();
 		one.findMaxAndMin();
 		one.sumOfArrayElement();
 		one.sumOfArray();

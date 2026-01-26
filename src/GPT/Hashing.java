@@ -9,12 +9,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class LevelThree {
+public class Hashing {
 
 	public static void main(String[] args) {
 		int arr[] = {2,3,4,4,5,2,0,2,0,1};
 		int arr2[] = { 2,3,9,11};
-		LevelThree lt = new LevelThree();
+		Hashing lt = new Hashing();
 		Set<Integer> set = new HashSet<>();
 //		lt.findDuplicateInArray(arr);
 //		lt.countFrequency(arr);

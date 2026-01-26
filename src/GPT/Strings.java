@@ -6,11 +6,11 @@ import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.Map;
 
-public class LevelTwo {
+public class Strings {
 
 	public static void main(String[] args) {
 		
-		LevelTwo two = new LevelTwo();
+		Strings two = new Strings();
 		two.reverseString("Java is powerful language");
 		two.countVowelAndConsonant("Programming");
 		boolean value = two.checkAnagram("java programe", "programe java");
