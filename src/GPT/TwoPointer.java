@@ -7,7 +7,7 @@ public class TwoPointer {
 	public static void main(String[] args) {
 		TwoPointer tp = new TwoPointer();
 		int arr[]= {1,4,8,5,0,5,0,8};
-		int arr1[] = new int[arr.length];
+		int arr1[] = { 0,4,-3,5,-8,5,-3,-7};
 		
 		//tp.reverseArray(arr);
 		//boolean result = tp.pairWithGivenSum(arr, 8);
@@ -18,6 +18,26 @@ public class TwoPointer {
 		}
 		
 		
+		
+	}
+	//Longest substring without repeating characters
+	public String findSubString(String str) {
+		int slow =0;
+		
+		return null;
+	}
+	//Move negatives to one side
+	public int moveNigativeToOneSide(int arr[]) {
+		int right =arr.length-1;
+		for(int i=0; i<arr.length; i++) {
+			if(arr[i]<0) {
+				int temp = arr[right];
+				arr[right]= arr[i];
+				arr[i]= temp;
+				right--;
+			}
+		}
+		return 0;
 	}
 	//Remove duplicates in-place
 	//“I am handling memory and indexes myself.”
