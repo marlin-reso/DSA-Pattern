@@ -1,21 +1,54 @@
 package classNotes;
 
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.LinkedHashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class RevisitTwo {
 
 	public static void main(String[] args) {
 		RevisitTwo rs = new RevisitTwo();
+		int arr[]= {0,4,5,2,0,1,89,5,0,5,0,43};
 	//	boolean result1=rs.checkPalindrome("abba1");
 	//	System.out.println(result1);
 		
 	//	boolean result2 = rs.checkPalindrome(12211);
 	//	System.out.println(result2);
 	//	rs.reverseString("programming");
-		String str = rs.rmDuplicate("Programming");
-		System.out.println(str);
+	//	String str = rs.rmDuplicate("Programming");
+	//	System.out.println(str);
+	//	rs.countChar("Programming");
+		rs.moveZero(arr);
 
+	}
+	//move Zero
+	public void moveZero(int arr[]) {
+		int j=0;
+		for(int i=0; i<arr.length; i++) {
+			if(arr[i] != 0) {
+				int temp = arr[i];
+				arr[i]=arr[j];
+				arr[j]= temp;
+				j++;
+			}
+		}
+		for(int a : arr) {
+			System.out.println(a);
+		}
+		
+	}
+	//count repeat char
+	public void countChar(String str) {
+		Map<Character, Integer> map = new HashMap<>();
+		for(char a : str.toCharArray()) {
+			map.put(a, map.getOrDefault(a, 0)+1);
+		}
+		for(Map.Entry<Character, Integer> entry : map.entrySet()) {
+			System.out.println(entry.getKey()+ " "+ entry.getValue());
+		}
+		
 	}
 	//remove duplicate
 	public String rmDuplicate(String str) {
