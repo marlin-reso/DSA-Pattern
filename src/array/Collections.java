@@ -12,38 +12,38 @@ import java.util.Set;
 public class Collections {
 
 	public static void main(String[] args) {
-	//	Collections.arrayList();
+		Collections.arrayList();
 		
-	//	String str = Collections.reverseString("abcdef");
-	//	System.out.println(str);
-		/*
+		String str = Collections.reverseString("abcdef");
+		System.out.println(str);
+		
 		int arr[] = { 1,0,3,0,5,0,4,6,0,6,7};
 		moveZero(arr);
 		for(int a : arr) {
 			System.out.println(a);
 		}
-		*/
 		
-	//	Collections.repactChar("aaabbbcddfettttgffr");
-		/*
+		
+		Collections.repactChar("aaabbbcddfettttgffr");
+		
 		String abc = Collections.rmDuplicate("aaabbbbcccddddeee");
 		System.out.println(abc);
 		
-		int arr[] = { 1,2,3,4,5,6,7};
+		int arr1[] = { 1,2,3,4,5,6,7};
 		Collections.revserseArray(arr);
 		
-		for(int c : arr) {
+		for(int c : arr1) {
 			System.out.println(c);
 		}
 		
 		
 		
-		int arr[] = { 10,20,30,48,49,55,66,70,69};
+		int arr2[] = { 10,20,30,48,49,55,66,70,69};
 		
-	int val=	Collections.secondLargest(arr);
-	System.out.println(val);
+	int values=	Collections.secondLargest(arr);
+	System.out.println(values);
 		
-	*/	
+		
 		
 	//	Collections.palindrome("abcba");
 		
